@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CLI Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="min-h-screen bg-black p-4 font-mono">
+    <div class="max-w-3xl mx-auto">
+      <div id="output"></div>
+      <form id="cliForm" class="mt-4">
+        <div class="flex items-center">
+          <span class="mr-2 text-green-400">$</span>
+          <input
+            id="cliInput"
+            type="text"
+            class="flex-grow bg-transparent outline-none text-green-400"
+            autocomplete="off"
+            aria-label="Command input"
+          />
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: monospace;
+  }
+  
+  .min-h-screen {
+    min-height: 100vh;
+  }
+  
+  .bg-black {
+    background-color: black;
+  }
+  
+  .p-4 {
+    padding: 1rem;
+  }
+  
+  .font-mono {
+    font-family: monospace;
+  }
+  
+  .max-w-3xl {
+    max-width: 48rem;
+    margin: 0 auto;
+  }
+  
+  .mt-4 {
+    margin-top: 1rem;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .mr-2 {
+    margin-right: 0.5rem;
+  }
+  
+  .text-green-400 {
+    color: #48bb78;
+  }
+  
+  .text-blue-400 {
+    color: #63b3ed;
+  }
+  
+  .text-yellow-400 {
+    color: #f6e05e;
+  }
+  
+  .text-pink-400 {
+    color: #f687b3;
+  }
+  
+  .text-purple-400 {
+    color: #9f7aea;
+  }
+  
+  .text-red-400 {
+    color: #f56565;
+  }
+  
+  .text-indigo-400 {
+    color: #667eea;
+  }
+  
+  .mb-1 {
+    margin-bottom: 0.25rem;
+  }
+  
